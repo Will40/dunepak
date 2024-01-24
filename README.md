@@ -27,7 +27,7 @@ While issuing (possibly after doing edits to files you want):
 ```
 dunepak.exe pak SCENARIO
 ``` 
-would pack all files (like `SCENA001.INI, ...`) in `SCENARIO` folder to a file `SCENARIO.PAK` (possibly overwriting it, checks, so be careful).
+would pack all files (like `SCENA001.INI, ...`) in `SCENARIO` folder to a file `SCENARIO.PAK` (overwriting it, so be careful).
 
 #### More detailed: 
 
