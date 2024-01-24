@@ -14,7 +14,7 @@ extern crate unwrap;
 /// DUNE II Pak file extractor/packer
 #[derive(Debug, Parser)] // requires `derive` feature
 #[command(name = "dunepak")]
-#[command(about = "DUNE II Pak extractor/packer", long_about = None)]
+#[command(author, version, about = "DUNE II Pak extractor/packer", long_about = None)]
 struct Cli {
     #[command(subcommand)]
     command: Commands,
