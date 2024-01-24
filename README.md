@@ -108,11 +108,12 @@ The file and folder names you pass can be absolute or relative to the current wo
 ## How to get
 ### Download binary release
 Look for the zipped executable in the [Releases section](https://github.com/Will40/dunepak/releases) on the right.
-As of now there are only windows binaries compiled. I will looking into building Linux binaries next.
+All binaries have been packed using [UPX](https://upx.github.io/), so if your antivirus says something is iffy - it's false positive.
 
 ### Build from sources
-You can always build your own, like if you cannot find binary release for your system:
+You can always build your own , like if you cannot find binary release for your system, or don't trust my computer being clean from viruses when compiling the stuff.
 
+Steps:
 - [Install Rust toolchain](https://www.rust-lang.org/tools/install) for your system
 - Clone (`git clone https://github.com/Will40/dunepak.git`) or Download/Unzip this repository
 - `cd dunepak`
