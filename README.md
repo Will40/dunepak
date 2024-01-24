@@ -46,6 +46,7 @@ Commands:
 Options:
   -v, --verbose  Display more info when packing/unpacking
   -h, --help     Print help
+  -V, --version  Print version
 ```
   
 #### For packing 
